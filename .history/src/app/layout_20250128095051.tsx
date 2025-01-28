@@ -30,7 +30,7 @@ export default async function HomeLayout({
   children: React.ReactNode
 }) {
   return (
-    
+    <html lang="en">
     <div className= 'flex flex-col min-h-screen'>
       <Header />
       <main className="flex-1 flex flex-col ">{children}</main>
