@@ -23,4 +23,4 @@ const data = {
     },
   ],
 }
-export default data
+ex
