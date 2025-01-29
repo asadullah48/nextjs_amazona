@@ -34,7 +34,7 @@ export async function getProductsForCard({
     image: string
   }[]
 }
-
+import Product, { IProduct } from '@/lib/db/models/product.model'
 // GET PRODUCTS BY TAG
 export async function getProductsByTag({
   tag,
